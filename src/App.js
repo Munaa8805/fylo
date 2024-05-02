@@ -2,6 +2,7 @@ import Features from "./components/Features";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Productive from "./components/Productive";
+import Testimonial from "./components/Testimonial";
 function App() {
   return (
     <div className="dark:bg-darkBlue dark:text-white">
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Features />
       <Productive />
+      <Testimonial />
     </div>
   );
 }
