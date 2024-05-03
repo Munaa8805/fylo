@@ -14,11 +14,11 @@ const Social = () => {
         <FacebookShareButton
           url={shareUrl}
           quote="Fylo"
-          hashtag={`#FyloForService`}
+          hashtag="#FyloForService"
         >
           <FacebookIcon size={32} round />
         </FacebookShareButton>
-        <TwitterShareButton url={shareUrl} quote="Fylo" hashtag={`#Fylo`}>
+        <TwitterShareButton url={shareUrl} quote="Fylo" hashtag="#Fylo">
           <TwitterIcon size={32} round />
         </TwitterShareButton>
       </div>
