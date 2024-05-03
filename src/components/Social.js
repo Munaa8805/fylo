@@ -11,6 +11,9 @@ const Social = () => {
   return (
     <div className="flex justify-center pb-10 space-x-3">
       <div className="flex gap-3 justify-center pb-5">
+        <TwitterShareButton url={shareUrl} quote="Fylo" hashtag="#Fylo">
+          <TwitterIcon size={32} round />
+        </TwitterShareButton>
         <FacebookShareButton
           url={shareUrl}
           quote="Fylo"
@@ -18,9 +21,6 @@ const Social = () => {
         >
           <FacebookIcon size={32} round />
         </FacebookShareButton>
-        <TwitterShareButton url={shareUrl} quote="Fylo" hashtag="#Fylo">
-          <TwitterIcon size={32} round />
-        </TwitterShareButton>
       </div>
     </div>
   );
