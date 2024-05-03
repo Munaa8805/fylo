@@ -1,3 +1,4 @@
+import Access from "./components/Access";
 import Features from "./components/Features";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -11,6 +12,7 @@ function App() {
       <Features />
       <Productive />
       <Testimonial />
+      <Access />
     </div>
   );
 }
