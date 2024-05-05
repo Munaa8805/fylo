@@ -4,6 +4,7 @@ import { IoSunny } from "react-icons/io5";
 
 const Header = () => {
   const [darkSwitch, setDarkSwitch] = useState(false);
+  const [isMobile, setIsMobile] = useState(true);
   const [dark, setDark] = React.useState(false);
   const headerdata = [
     { id: 1, name: "Features", icon: "#features" },

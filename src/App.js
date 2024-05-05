@@ -5,10 +5,13 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Productive from "./components/Productive";
 import Testimonial from "./components/Testimonial";
+
+import Mobile from "./components/Mobile";
 function App() {
   return (
     <div className="dark:bg-darkBlue dark:text-white">
-      <Header />
+      {/* <Header /> */}
+      <Mobile />
       <Hero />
       <Features />
       <Productive />
