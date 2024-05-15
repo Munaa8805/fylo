@@ -42,6 +42,11 @@ const Testimonial = () => {
         <div
           key={item.id}
           className="flex flex-col p-10 space-y-6 rounded-lg bg-gray-100 dark:bg-darkBlue3 md:w-1/3"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
         >
           <p className="text-sm leading-5 md:text-lg">{item.desc}</p>
           <div className="flex space-x-4">

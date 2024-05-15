@@ -5,6 +5,11 @@ const Access = () => {
     <section
       id="early-access"
       className="relative px-6 dark:bg-darkBlue2 md:px-6"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
     >
       <div className="relative -top-40 max-w-4xl mx-auto p-10 px-6 space-y-6 text-center rounded-lg bg-gray-200 dark:bg-darkBlue1 md:px-16">
         <h5 className="text-2xl font-bold">Get early access today</h5>

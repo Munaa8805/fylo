@@ -9,6 +9,11 @@ const Feature = ({ item }) => {
             <div
               className="flex flex-col items-center mt-4 space-y-2 md:w-1/2"
               key={x.id}
+              data-aos={`${x.id % 2 === 0 ? "fade-left" : "fade-right"}`}
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
             >
               <div className="flex items-center justify-center h-24 mb-2">
                 <img src={x.image} alt={x.name} />
